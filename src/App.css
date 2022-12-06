@@ -1,0 +1,46 @@
+body{
+  background-color: navy;
+}
+h1{
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  text-align: center;
+  width: 200px;
+  margin: auto;
+}
+
+.emoji_box{
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 0 2px 2px grey;
+  height: 30vh;
+  margin-left: 240px;
+  margin-top:40px ;
+  width: 180px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+}
+.emoji{
+  font-size: 50px;
+}
+.emoji_choose_container{
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  height: 10vh;
+  border-radius: 5px;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.emoji_choose_container div{
+  cursor: pointer;
+  font-size: 20px;
+}
+
+body.active{
+  background-color: black;
+}
